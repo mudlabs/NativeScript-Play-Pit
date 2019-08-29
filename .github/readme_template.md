@@ -1,42 +1,62 @@
 <!-- Replace with the name of this project. Should match the folder name. -->
 # Name of Project Here
 
-<!-- Replace with a description of the project. -->
-A brief description of the project goes here.
+
+### Table of Content
+  * [Description](#description)
+  * [Related Resources](#related-resources)
+  * [Playgrounds](#playgrounds)
+
+
+### Description
+<!-- Describe the project. -->
+
+
+### Related Resources
+<!--
+Reference any related resources here. These could include;
+ * Existing video or blog tutorials that create the same project, or inspired it.
+ * A live website or app using the behaviour, style, etc.., the app is trying to replicate.
+ * Or perhaps a design from somewhere like dribbble.com inspired the project.
+-->
+
+### Playgrounds
+<!--
+  How to add your project.
+  1) Find the relavent table bellow, and uncomment it.
+  2) Replace the placeholder title url with your projects Playground url.
+  3) Replace the placeholder QR Code image path with the relative pathe to the correct project image.
+  4) Please double check both the title link in QR Code point to the same Playground.
+-->
+
+<!--
+| [Playground (JavaScript)](https://javascript-playground-url-here) |
+| --- |
+| [QR Code](relative-path-to-javascript-qr-code.png) |
+--->
 
 ---
 
 <!--
-  How to Update Project Tables
-  1) Turn the table header into a link to the specific project Playground.
-  2) Replace "Project Missing" with an inline image of the Playground QR Code.
-    2.1) The path to the image should be at the same level as the README.
-    2.2) The name of the image should be structured like NameOfProject_JS.
-         Where "NameOfProject" is the Captialized, collapsed project name.
-         And "_JS" means its the JavaScript implementation.
--->
-
-
-| Playground (JavaScript) |
+| [Playground (TypeScript)](https://typescript-playground-url-here) |
 | --- |
-| Project Missing |
+| [QR Code](relative-path-to-typescript-qr-code.png) |
+--->
 
 ---
 
-| Playground (TypeScript) |
+<!--
+| [Playground (Vue)](https://vue-playground-url-here) |
 | --- |
-| Project Missing |
+| [QR Code](relative-path-to-vue-qr-code.png) |
+--->
 
 ---
 
-| Playground (Vue) |
+<!--
+| [Playground (Angular)](https://angular-playground-url-here) |
 | --- |
-| Project Missing |
-
----
-
-| Playground (Angular) |
-| --- |
-| Project Missing |
+| [QR Code](relative-path-to-angular-qr-code.png) |
+--->
 
 ---
