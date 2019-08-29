@@ -6,12 +6,24 @@ The sheet is initially hidden, and shown from a button tap on the _main_ page. I
 
 ---
 
-| [Playground (JS)](https://play.nativescript.org/?template=play-js&id=AxkpXa&v=2) |
+| [Playground (JavaScript)](https://play.nativescript.org/?template=play-js&id=AxkpXa&v=2) |
 | --- |
 | ![QR Code JS](AnimatedBottomSheet_JS.png?raw=true) |
 
 ---
 
-| [Playground (TS)](https://play.nativescript.org/?template=play-tsc&id=9tAzM4) |
+| [Playground (TypeScript)](https://play.nativescript.org/?template=play-tsc&id=9tAzM4) |
 | --- |
 | ![QR Code TS](AnimatedBottomSheet_TS.png?raw=true) |
+
+---
+
+| Playground (Vue) |
+| --- |
+| Missing |
+
+---
+
+| Playground (Angular) |
+| --- |
+| Missing |
