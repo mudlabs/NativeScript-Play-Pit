@@ -32,7 +32,7 @@ Reference any related resources here. These could include;
 <!--
 | [Playground (JavaScript)](https://javascript-playground-url-here) |
 | --- |
-| [QR Code](relative-path-to-javascript-qr-code.png) |
+| ![QR Code JavaScript](relative-path-to-javascript-qr-code.png) |
 --->
 
 ---
@@ -40,7 +40,7 @@ Reference any related resources here. These could include;
 <!--
 | [Playground (TypeScript)](https://typescript-playground-url-here) |
 | --- |
-| [QR Code](relative-path-to-typescript-qr-code.png) |
+| ![QR Code TypeScript](relative-path-to-typescript-qr-code.png) |
 --->
 
 ---
@@ -48,7 +48,7 @@ Reference any related resources here. These could include;
 <!--
 | [Playground (Vue)](https://vue-playground-url-here) |
 | --- |
-| [QR Code](relative-path-to-vue-qr-code.png) |
+| ![QR Code Vue](relative-path-to-vue-qr-code.png) |
 --->
 
 ---
@@ -56,7 +56,7 @@ Reference any related resources here. These could include;
 <!--
 | [Playground (Angular)](https://angular-playground-url-here) |
 | --- |
-| [QR Code](relative-path-to-angular-qr-code.png) |
+| ![QR Code Angular](relative-path-to-angular-qr-code.png) |
 --->
 
 ---
