@@ -18,22 +18,26 @@ This project was taken from a YouTube tutorial, [Animated Bottom Sheet in Native
 
 | [Playground (JavaScript)](https://play.nativescript.org/?template=play-js&id=AxkpXa&v=2) |
 | --- |
-| ![QR Code JS](AnimatedBottomSheet_JS.png?raw=true) |
+| ![QR Code JavaScript](AnimatedBottomSheet_JS.png?raw=true) |
 
 ---
 
 | [Playground (TypeScript)](https://play.nativescript.org/?template=play-tsc&id=9tAzM4) |
 | --- |
-| ![QR Code TS](AnimatedBottomSheet_TS.png?raw=true) |
+| ![QR Code TypeScript](AnimatedBottomSheet_TS.png?raw=true) |
 
 ---
 
-| Playground (Vue) |
+<!--
+| [Playground (Vue)](https://vue-playground-url-here) |
 | --- |
-| Missing |
+| ![QR Code Vue](relative-path-to-vue-playground-qr-code.png) |
+-->
 
 ---
 
-| Playground (Angular) |
+<!--
+| [Playground (Angular)](https://angular-playground-url-here) |
 | --- |
-| Missing |
+| ![QR Code Angular](relative-path-to-angular-playground-qr-code.png) |
+-->
