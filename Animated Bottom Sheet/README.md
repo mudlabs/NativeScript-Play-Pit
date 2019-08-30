@@ -16,7 +16,7 @@ This project was taken from a YouTube tutorial, [Animated Bottom Sheet in Native
 ### Playgrounds
 ---
 
-| [Playground (JavaScript)](https://play.nativescript.org/?template=play-js&id=AxkpXa&v=2) |
+| [Playground (JavaScript)](https://play.nativescript.org/?template=play-js&id=AxkpXa&v=3) |
 | --- |
 | ![QR Code JavaScript](AnimatedBottomSheet_JS.png?raw=true) |
 
