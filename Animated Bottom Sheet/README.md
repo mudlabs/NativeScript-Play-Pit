@@ -22,7 +22,7 @@ This project was taken from a YouTube tutorial, [Animated Bottom Sheet in Native
 
 ---
 
-| [Playground (TypeScript)](https://play.nativescript.org/?template=play-tsc&id=9tAzM4) |
+| [Playground (TypeScript)](https://play.nativescript.org/?template=play-tsc&id=9tAzM4&v=2) |
 | --- |
 | ![QR Code TypeScript](AnimatedBottomSheet_TS.png?raw=true) |
 
