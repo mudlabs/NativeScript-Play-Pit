@@ -13,4 +13,4 @@ A collection of NativeScript playground projects demonstrating all the _AWESOMEN
 ---
 
 ## Contributing
-Please see [CONTRIBUTING.md](./CONTRIBUTING.md)
+Please see [CONTRIBUTE.md](./CONTRIBUTE.md)
