@@ -2,7 +2,7 @@
 [android icon]: https://icomoon.io/icons9f9702a/13/342.svg "Android"
 
 # NativeScript Playgrounds
-A collection of NativeScript playground projects demonstrating what you can do with NativeScript; and at least _one_ way to do it.
+A collection of NativeScript playground projects demonstrating all the _AWESOMENESS_:metal: of NativeScript.
 
 * To view a project on your device, select the project file and scan the QR Code using the _Playground App_.
   * [Playground App (Android)](https://play.google.com/store/apps/details?id=org.nativescript.play)
