@@ -1,3 +1,22 @@
+[JavaScript]: https://img.shields.io/badge/JavaScript-%E2%9C%93-F7DF1E.svg?logo=JavaScript&logoColor=F7DF1E&labelColor=000000
+[TypeScript]: https://img.shields.io/badge/TypeScript-%E2%9C%93-007ACC.svg?logo=TypeScript&logoColor=007ACC&labelColor=000000
+[Vue]: https://img.shields.io/badge/Vue.js-%E2%9C%93-4FC08D.svg?logo=Vue.js&logoColor=4FC08D&labelColor=000000
+[Angular]: https://img.shields.io/badge/Angular-%E2%9C%93-DD0031.svg?logo=Angular&logoColor=DD0031&labelColor=000000
+[iOS]: https://img.shields.io/badge/apple-%E2%9C%93-949393.svg?logo=apple&logoColor=white
+[Android]: https://img.shields.io/badge/android-%E2%9C%93-949393.svg?logo=android&logoColor=white
+
+<!-- Update the Playground links below that match your language implementation. -->
+[Playground (JavaScript)]: https://play.nativescript.org
+[Playground (TypeScript)]: https://play.nativescript.org
+[Playground (Vue)]: https://play.nativescript.org
+[Playground (Angular)]: https://play.nativescript.org
+
+
+<!-- Uncomments the below platform image tags that this project supports. -->
+<!-- ![iOS] -->
+<!-- ![Android] -->
+
+
 <!-- Replace with the name of this project. Should match the folder name. -->
 # Name of Project Here
 
@@ -20,43 +39,30 @@ Reference any related resources here. These could include;
  * Or perhaps a design from somewhere like dribbble.com inspired the project.
 -->
 
+
 ### Playgrounds
+<!-- Uncomment the table(s) bellow that match your implementation. -->
+
 <!--
-  How to add your project.
-  1) Find the relavent table bellow, and uncomment it.
-  2) Replace the placeholder title url with your projects Playground url.
-  3) Replace the placeholder QR Code image path with the relative pathe to the correct project image.
-  4) Please double check both the title link in QR Code point to the same Playground.
+| [Playground (JavaScript)] |
+| --- |
+| [![JavaScript]][Playground (JavaScript)] |
 -->
 
 <!--
-| [Playground (JavaScript)](https://javascript-playground-url-here) |
+| [Playground (TypeScript)] |
 | --- |
-| ![QR Code JavaScript](relative-path-to-javascript-qr-code.png) |
---->
-
----
+| [![TypeScript]][Playground (TypeScript)] |
+-->
 
 <!--
-| [Playground (TypeScript)](https://typescript-playground-url-here) |
+| [Playground (Angular)] |
 | --- |
-| ![QR Code TypeScript](relative-path-to-typescript-qr-code.png) |
---->
-
----
+| [![Angular]][Playground (Angular)] |
+-->
 
 <!--
-| [Playground (Vue)](https://vue-playground-url-here) |
+| [Playground (Vue)] |
 | --- |
-| ![QR Code Vue](relative-path-to-vue-qr-code.png) |
---->
-
----
-
-<!--
-| [Playground (Angular)](https://angular-playground-url-here) |
-| --- |
-| ![QR Code Angular](relative-path-to-angular-qr-code.png) |
---->
-
----
+| [![Vue]][Playground (Vue)] |
+-->
