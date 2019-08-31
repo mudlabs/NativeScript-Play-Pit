@@ -4,11 +4,12 @@
 # NativeScript Playgrounds
 A collection of NativeScript playground projects demonstrating all the _AWESOMENESS_:metal: of NativeScript.
 
-* To view a project on your device, select the project file and scan the QR Code using the _Playground App_.
-  * [Playground App (Android)](https://play.google.com/store/apps/details?id=org.nativescript.play)
-  * [Playground App (iOS)](https://apps.apple.com/au/app/nativescript-playground/id1263543946)
+To view a project on your device you'll need the _Playground_ and _Preview_ apps. Once you have the apps you can tap a project link from you phones' browser and it will open in the _Preview_ app. Or you can navigate to the Playground from your computer and select `QR Code` from the UI. Then use the _Playground_ app to scan the QR Code.
 
-* To visit the projects _Playground_ and inspect the code, click the title above the QR Code.
+| iOS | Android |
+| --- | --- |
+| [Playground App](https://apps.apple.com/au/app/nativescript-playground/id1263543946) | [Playground App](https://play.google.com/store/apps/details?id=org.nativescript.play) |
+| [Preview App](https://apps.apple.com/au/app/nativescript-preview/id1263543946) | [Preview App](https://play.google.com/store/apps/details?id=org.nativescript.preview) |
 
 ---
 
