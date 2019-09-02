@@ -23,7 +23,7 @@ If an existing project is incomplete, say there's no Angular implementation, you
   
 ---
 
-#Contribute an Update
+# Contribute an Update
 If you inspect a projects' Playground code and find some errors, or just want to make some kind of improvement;
   1. Fork the repository.
   1. Create a new branch named `update_<existing-project-name>`.
