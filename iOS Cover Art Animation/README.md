@@ -29,7 +29,7 @@
 
 ### Description
 <!-- Describe the project. -->
-Imitates the iOS cover art animation where an albumn cover grows and shows a shadow. With the shadow color being the average color of the cover image.
+Imitates the iOS cover art animation where an album cover grows and shows a shadow. With the shadow color being the average color of the cover image.
 
 ### Related Resources
 <!--
