@@ -1,4 +1,4 @@
-### Did you read [CONTRIBUTE.md](./CONTRIBUTE.md)
+### Did you read [CONTRIBUTE.md](https://github.com/mudlabs/NativeScript-Play-Pit/blob/master/CONTRIBUTE.md)
 - [] No
 - [] Yes
 
