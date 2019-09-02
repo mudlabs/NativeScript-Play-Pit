@@ -6,7 +6,7 @@
 [Android]: https://img.shields.io/badge/android-%E2%9C%93-949393.svg?logo=android&logoColor=white
 
 <!-- Update the Playground links below that match your language implementation. -->
-[Playground (JavaScript)]: https://play.nativescript.org/?template=play-js&id=nJhbvb&v=2
+[Playground (JavaScript)]: https://play.nativescript.org/?template=play-js&id=nJhbvb&v=3
 [Playground (TypeScript)]: https://play.nativescript.org
 [Playground (Vue)]: https://play.nativescript.org
 [Playground (Angular)]: https://play.nativescript.org
@@ -29,7 +29,7 @@
 
 ### Description
 <!-- Describe the project. -->
-Imitates the iOS cover art animation where an albumn cover, or podcast image grows and shows a shadow. With the shadow color coming from the image.
+Imitates the iOS cover art animation where an albumn cover grows and shows a shadow. With the shadow color being the average color of the cover image.
 
 ### Related Resources
 <!--
