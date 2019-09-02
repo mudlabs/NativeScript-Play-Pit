@@ -14,4 +14,4 @@ To view a project on your device you'll need the _Playground_ and _Preview_ apps
 ---
 
 ## Contributing
-Please see [CONTRIBUTE.md](./CONTRIBUTE.md)
+Please see [CONTRIBUTE.md](https://github.com/mudlabs/NativeScript-Play-Pit/blob/master/CONTRIBUTE.md)
