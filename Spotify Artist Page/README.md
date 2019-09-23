@@ -38,7 +38,7 @@ Reference any related resources here. These could include;
  * A live website or app using the behaviour, style, etc.., the app is trying to replicate.
  * Or perhaps a design from somewhere like dribbble.com inspired the project.
 -->
-See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript](https://youtu.be/k9cxGlAlo4s) tutorial for a full walk-through. However this project does use `iosOverflowSafeArea` to set the image.
+See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript](https://youtu.be/k9cxGlAlo4s) tutorial for a full walk-through. However this project does use `iosOverflowSafeArea` to set the image. And takes a slightly different approach to laying-out the page components.
 
 
 ### Playgrounds
