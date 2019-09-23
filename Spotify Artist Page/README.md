@@ -6,7 +6,7 @@
 [Android]: https://img.shields.io/badge/android-%E2%9C%93-949393.svg?logo=android&logoColor=white
 
 <!-- Update the Playground links below that match your language implementation. -->
-[Playground (JavaScript)]: https://play.nativescript.org/?template=play-js&id=x5VeUR&v=2
+[Playground (JavaScript)]: https://play.nativescript.org/?template=play-js&id=x5VeUR&v=3
 [Playground (TypeScript)]: https://play.nativescript.org
 [Playground (Vue)]: https://play.nativescript.org
 [Playground (Angular)]: https://play.nativescript.org
@@ -28,7 +28,7 @@
 
 
 ### Description
-Immitates the image and item fade on scroll UX of the Spotify artist page _(circa 2019)_.
+Immitates the Spotify artist page _(circa 2019)_.
 
 
 ### Related Resources
@@ -38,7 +38,7 @@ Reference any related resources here. These could include;
  * A live website or app using the behaviour, style, etc.., the app is trying to replicate.
  * Or perhaps a design from somewhere like dribbble.com inspired the project.
 -->
-See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript](https://youtu.be/k9cxGlAlo4s) tutorial.
+See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript](https://youtu.be/k9cxGlAlo4s) tutorial for a full walk-through. However this project does use `iosOverflowSafeArea` to set the image.
 
 
 ### Playgrounds
