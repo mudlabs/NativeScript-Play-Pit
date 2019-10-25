@@ -2,7 +2,7 @@
 [TypeScript]: https://img.shields.io/badge/TypeScript-%E2%9C%93-007ACC.svg?logo=TypeScript&logoColor=007ACC&labelColor=000000
 [Vue]: https://img.shields.io/badge/Vue.js-%E2%9C%93-4FC08D.svg?logo=Vue.js&logoColor=4FC08D&labelColor=000000
 [Angular]: https://img.shields.io/badge/Angular-%E2%9C%93-DD0031.svg?logo=Angular&logoColor=DD0031&labelColor=000000
-[iOS]: https://img.shields.io/badge/apple-%E2%9C%93-949393.svg?logo=apple&logoColor=white
+[iOS]: https://img.shields.io/badge/ios-%E2%9C%93-949393.svg?logo=apple&logoColor=white
 [Android]: https://img.shields.io/badge/android-%E2%9C%93-949393.svg?logo=android&logoColor=white
 
 <!-- Update the Playground links below that match your language implementation. -->
