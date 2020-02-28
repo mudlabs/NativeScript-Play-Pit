@@ -15,3 +15,14 @@ To view a project on your device you'll need the _Playground_ and _Preview_ apps
 
 ## Contributing
 Please see [CONTRIBUTE.md](https://github.com/mudlabs/NativeScript-Play-Pit/blob/master/CONTRIBUTE.md)
+
+---
+
+## Projects
+- [Animated Bottom Sheet](Animated%20Bottom%20Sheet)
+- [Dragging](Dragging)
+- [Spotify Artist Page](Spotify%20Artist%20Page)
+- [Star Rating](Star%20Rating)
+- [Text Converter](Text%20Converter)
+- [iOS Cover Art Animation](iOS%20Cover%20Art%20Animation)
+
