@@ -7,7 +7,7 @@
 
 <!-- Update the Playground links below that match your language implementation. -->
 [Playground (JavaScript)]: https://play.nativescript.org
-[Playground (TypeScript)]: https://play.nativescript.org/?template=play-tsc&id=ryFKn3
+[Playground (TypeScript)]: https://play.nativescript.org/?template=play-tsc&id=ryFKn3&v=2
 [Playground (Vue)]: https://play.nativescript.org
 [Playground (Angular)]: https://play.nativescript.org
 
