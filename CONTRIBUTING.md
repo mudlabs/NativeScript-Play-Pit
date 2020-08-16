@@ -29,6 +29,6 @@ If you inspect a projects' Playground code and find some errors, or just want to
   1. Create a new branch named `update_<existing-project-name>`.
   1. Navigate to the Playground code and make your changes.
   1. Save the project with the Playgrounds' UI, and copy the new URL.
-  1. Update the appropiat `[Playground]` link at the top the the `README` with your new URL.
+  1. Update the appropriate `[Playground]` link at the top of the `README` with your new URL.
   1. Check the _title_ and badge links point to the same, most recent, and complete Playground.
   1. Commit your changes and create a pull request.
