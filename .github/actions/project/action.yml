@@ -1,0 +1,5 @@
+name: "New Project"
+description: "Creates a new project"
+runs:
+  using: "node12"
+  main: "index.js"

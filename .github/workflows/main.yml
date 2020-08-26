@@ -1,0 +1,39 @@
+name: Play Pit Contributions
+
+on:
+  issues:
+    types:
+      - opened
+  issue_comment:
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  new-project:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, '[project]')
+    name: Create New Project
+    steps:
+      - uses: actions/checkout
+        name: new project
+        id: project
+      - uses: ./.github/actions/project
+  missing-flavour:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, '[missing]')
+    name: Add Missing Flavour to Project
+    steps:
+      - uses: actions/checkout
+        name: missing flavour
+        id: missing
+      - uses: ./.github/actions/missing
+  update-flavour:
+    runs-on: ubuntu-latest
+    if: startsWith(github.event.issue.title, '[update]')
+    name: Update Project Flavour
+    steps:
+      - uses: actions/checkout
+        name: update flavour
+        id: update
+      - uses: ./.github/actions/update

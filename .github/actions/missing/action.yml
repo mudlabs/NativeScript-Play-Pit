@@ -1,0 +1,5 @@
+name: "Missing Flavour"
+description: "Adds a missing NativeScript flavour to a project"
+runs:
+  using: "node12"
+  main: "index.js"

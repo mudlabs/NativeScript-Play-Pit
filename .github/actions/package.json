@@ -1,0 +1,23 @@
+{
+  "name": "nativescript-play-pit-actions",
+  "version": "1.0.0",
+  "description": "Github actions for creating and changing projects",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mudlabs",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mudlabs/NativeScript-Play-Pit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mudlabs/NativeScript-Play-Pit/issues"
+  },
+  "homepage": "https://github.com/mudlabs/NativeScript-Play-Pit",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  }
+}
