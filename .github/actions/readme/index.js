@@ -8,9 +8,9 @@ const github = require("@actions/github");
     const setProjectAction = project => action => type => {
       const repo = github.context.payload.repository.html_url;
       const title = encodeURIComponent(`[${action}][${type}] ${project}`);
-      const template = action === "add" ? "add.md" : "update.md";
+      const template = action === "add" ? "issue_3_add.md" : "issue_2_update.md";
 
-      return `[![${action}][${action}-badge]](${repo}/issues/new/?title=${title}&template=${template})`;
+      return `[![${action}][${action}-badge]](${repo}/issues/new/?template=${template})`;
     };
 
     const userOnDate = user => {
