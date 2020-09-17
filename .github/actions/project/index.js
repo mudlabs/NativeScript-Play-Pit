@@ -1,8 +1,8 @@
 const core = require("@actions/core");
 const github = require("@actions/github");
-const utils = require("./utils");
-const fs = require("fs");
+const utils = require("../utils");
 const yaml = require("js-yaml");
+const fs = require("fs");
 
 const octokit = github.getOctokit(process.env.token);
 const owner = github.context.payload.repository.owner.login;
