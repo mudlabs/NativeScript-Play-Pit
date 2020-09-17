@@ -7,7 +7,7 @@ const utils = require("../utils");
   const projects_dir = await fs.promises.readdir("projects", options);
   const list_regexp = new RegExp(/(- \[(?:\w|\s)+\]\(projects\/(?:\w|\%|\d)+\)\n)+/, "gim");
   
-  console.log(list);
+  console.log(projects_dir);
   // const list = projects_dir.reduce((prev, curr) => `- [${curr}](${curr})`, "");
   // const new_readme = current_readme.replace(list_regexp, list);
 
