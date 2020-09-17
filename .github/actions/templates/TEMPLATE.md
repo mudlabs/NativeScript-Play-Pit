@@ -5,8 +5,8 @@
 [react-badge]: https://img.shields.io/badge/React-%E2%9C%93-33d8ff.svg?style=for-the-badge&logo=React&logoColor=33d8ff&labelColor=000000
 [svelte-badge]: https://img.shields.io/badge/Svelte-%E2%9C%93-f93e02.svg?style=for-the-badge&logo=Svelte&logoColor=f93e02&labelColor=000000
 
-[ios-badge]: https://img.shields.io/badge/ios-%E2%9C%93-0aca08.svg?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000
-[android-badge]: https://img.shields.io/badge/android-%E2%9C%93-0aca08.svg?style=for-the-badge&logo=android&logoColor=white&labelColor=000000
+[ios-badge]: https://img.shields.io/badge/ios-%E2%9C%93-e6e8eb.svg?style=for-the-badge&logo=apple&logoColor=white&labelColor=000000
+[android-badge]: https://img.shields.io/badge/android-%E2%9C%93-e6e8eb.svg?style=for-the-badge&logo=android&logoColor=white&labelColor=000000
 [ios-badge--simple]: https://img.shields.io/badge/ios-000000.svg?style=for-the-badge&logo=apple&logoColor=white
 [android-badge--simple]: https://img.shields.io/badge/android-000000.svg?style=for-the-badge&logo=android&logoColor=white
 

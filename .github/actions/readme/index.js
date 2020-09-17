@@ -92,6 +92,7 @@ const github = require("@actions/github");
 
     await fs.promises.writeFile(`projects/${directory}/README.md`, readme); 
     core.setOutput("status", "pull-request")
+    core.setOutput("issue", data.issue);
   } catch (error) {
     console.log(error);
   }
