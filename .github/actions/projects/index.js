@@ -2,7 +2,7 @@ const fs = require("fs");
 
 (async function() {
   try {
-    const options = { encoding: "utf-8", flag: "rw" };
+    const options = { encoding: "utf-8", flag: "r" };
     const current_readme = await fs.promises.readFile("README.md", options)
     const projects_dir = await fs.promises.readdir("projects", options);
     const list_regexp = new RegExp(/(- \[(?:\w|\s)+\]\(projects\/(?:\w|\%|\d)+\)\n)+/, "gim");
