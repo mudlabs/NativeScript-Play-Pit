@@ -52,7 +52,7 @@ Reference any related resources here. These could include;
 <!-- Playgrounds -->
 ### Playgrounds
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bjavascript%5D%20Text%20Converter&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![JavaScript][javascript-badge]]()
 
@@ -64,7 +64,7 @@ Reference any related resources here. These could include;
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bangular%5D%20Text%20Converter&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Angular][angular-badge]]()
 
@@ -76,7 +76,7 @@ Reference any related resources here. These could include;
 <br/>
 
 
-[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Bupdate%5D%5Btypescript%5D%20Text%20Converter&template=update.md)
+[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_2_update.md)
 &nbsp;&nbsp;
 [![TypeScript][typescript-badge]](https://play.nativescript.org/?template=play-tsc&id=rVp750&v=2)
 
@@ -88,7 +88,7 @@ Reference any related resources here. These could include;
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bvue%5D%20Text%20Converter&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Vue][vue-badge]]()
 
@@ -100,7 +100,7 @@ Reference any related resources here. These could include;
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Breact%5D%20Text%20Converter&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![React][react-badge]]()
 
@@ -112,7 +112,7 @@ Reference any related resources here. These could include;
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bsvelte%5D%20Text%20Converter&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Svelte][svelte-badge]]()
 
