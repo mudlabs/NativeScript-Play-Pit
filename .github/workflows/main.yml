@@ -62,38 +62,38 @@ jobs:
         uses: peter-evans/create-pull-request@v3.3.0
         with:
           delete-branch: true
-          commit-message: ${{ message }}
-          committer: ${{ committer }}
-          author: ${{ author }}
-          branch: ${{ branch }}
-          title: ${{ title }}
-          body: ${{ body }}
-          labels: ${{ labels }}
-  request:
-    runs-on: ubuntu-latest
-    name: Authorized Request
-    needs: metadata
-    if: needs.metadata.outputs.job == 'request'
-    steps:
-      - uses: actions/checkout@v2
-      - name: Get PR Number
-        id: number
-        uses: ./.github/actions/request
-        with:
-          task: "number"
-      - name: Checkout PR
-        uses: dawidd6/action-checkout-pr@v1.2.0
-        with:
-          number: ${{ steps.number.outputs.number }}
-      - name: Parse Comment
-        id: parse
-        uses: mudlabs/NativeScript-Play-Pit/.github/actions/request@master
-        with:
-          task: "comment"
-      - name: Add and Commit
-        uses: EndBug/add-and-commit@v4.4.0
-        with:
-          ref: ${{ branch }}
-          author_name: ${{ author_name }}
-          author_email: ${{ email_email }}
-          message: ${{ message }}
+          # commit-message: ${{ message }}
+          # committer: ${{ committer }}
+          # author: ${{ author }}
+          # branch: ${{ branch }}
+          # title: ${{ title }}
+          # body: ${{ body }}
+          # labels: ${{ labels }}
+  # request:
+  #   runs-on: ubuntu-latest
+  #   name: Authorized Request
+  #   needs: metadata
+  #   if: needs.metadata.outputs.job == 'request'
+  #   steps:
+  #     - uses: actions/checkout@v2
+  #     - name: Get PR Number
+  #       id: number
+  #       uses: ./.github/actions/request
+  #       with:
+  #         task: "number"
+  #     - name: Checkout PR
+  #       uses: dawidd6/action-checkout-pr@v1.2.0
+  #       with:
+  #         number: ${{ steps.number.outputs.number }}
+  #     - name: Parse Comment
+  #       id: parse
+  #       uses: mudlabs/NativeScript-Play-Pit/.github/actions/request@master
+  #       with:
+  #         task: "comment"
+  #     - name: Add and Commit
+  #       uses: EndBug/add-and-commit@v4.4.0
+  #       with:
+  #         ref: ${{ branch }}
+  #         author_name: ${{ author_name }}
+  #         author_email: ${{ email_email }}
+  #         message: ${{ message }}
