@@ -59,6 +59,8 @@ jobs:
       - name: PR Data
         id: pr_data
         uses: ./.github/actions/pr_data
+        with:
+          issue: ${{ steps.readme.outputs.issue }}
       - name: Create PR
         id: pr
         if: success()

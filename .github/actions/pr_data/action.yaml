@@ -1,5 +1,9 @@
 name: "PR Data"
 description: "Sets the PR Data"
+inputs:
+  issue:
+    required: true
+    description: "The project issue number"
 outputs:
   message:
     description: 'The pr message'

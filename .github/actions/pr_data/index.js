@@ -5,6 +5,7 @@ let branch, title, body, labels, message;
 const committer = "GitHub <noreply@github.com>"
 const branch_title = utils.branchify(process.env.project);
 const type = process.env.type;
+const issue = core.getInput("issue");
 
 switch (type) {
   case "project":
