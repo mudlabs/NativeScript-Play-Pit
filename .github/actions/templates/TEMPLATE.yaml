@@ -1,0 +1,56 @@
+issue:
+ios:
+android:
+title:
+author: &author
+  id: 
+  login: 
+  date:
+description: 
+resources: 
+playgrounds: 
+  js:
+    flavour: "JavaScript"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: &contributor
+      id:
+      login:
+      date:
+  ng:
+    flavour: "Angular"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: *contributor
+  tsc:
+    flavour: "TypeScript"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: *contributor
+  vue:
+    flavour: "Vue"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: *contributor
+  react:
+    flavour: "React"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: *contributor
+  svelte:
+    flavour: "Svelte"
+    url:
+    ios:
+    android:
+    author: *author
+    contributor: *contributor

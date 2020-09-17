@@ -18,6 +18,7 @@
   "homepage": "https://github.com/mudlabs/NativeScript-Play-Pit",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/github": "^4.0.0"
+    "@actions/github": "^4.0.0",
+    "js-yaml": "^3.14.0"
   }
 }

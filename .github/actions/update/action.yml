@@ -1,5 +1,0 @@
-name: "Update Flavour"
-description: "Updates a projects' playground link for a given flavour of NativeScript"
-runs:
-  using: "node12"
-  main: "index.js"

@@ -1,5 +1,5 @@
 name: "New Project"
-description: "Creates a new project"
+description: "Creates the new projects data file"
 runs:
   using: "node12"
   main: "index.js"
