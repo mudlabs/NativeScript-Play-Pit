@@ -28,7 +28,7 @@ const utils = require("../utils");
         const sec = getSection(body)("## Project Title")("## Platform Support");
         issue_number = github.context.payload.issue.number;
         project = sec.match(/^[a-z0-9 ]+$/i) 
-          ? utils.capitalise(title) 
+          ? utils.capitalise(sec) 
           : null;
         break;
 
