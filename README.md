@@ -24,6 +24,7 @@ To view a project on your device you'll need the _Playground_ and _Preview_ apps
 - [Animated Bottom Sheet](projects/Animated%20Bottom%20Sheet)
 - [Dragging](projects/Dragging)
 - [Spotify Artist Page](projects/Spotify%20Artist%20Page)
+- [Star Rating](projects/Star%20Rating)
 
 ---
 

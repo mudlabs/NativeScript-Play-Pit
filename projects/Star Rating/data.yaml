@@ -1,0 +1,53 @@
+issue: 47
+ios: true
+android: true
+title: Star Rating
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: "A simple project on how to create a Star Rating componenet for your NativeScript application.\r\n\r\nThe component lets you; \r\n  - Specify the color of selected and unselected stars, via the `color` and `backgroundColor` property.\r\n  - Specify an initial rating via the `rating` property.\r\n  - And change the rating on `tap`."
+resources: n/a
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: 'https://play.nativescript.org/?template=play-tsc&id=ryFKn3&v=2'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
