@@ -1,0 +1,5 @@
+name: Playground Links
+description: 'Adds or updates playground links of an existing project'
+runs:
+  using: 'node12'
+  main: 'index.js'

@@ -1,0 +1,22 @@
+name: Jobs Metadata
+description: 'Gets the metadata needed by multiple jobs in the workflow'
+inputs:
+  title:
+    required: true
+    description: "The title issue that triggered the workflow event"
+outputs:
+  project:
+    description: 'The title of the relavent project'
+  issue:
+    description: 'The issue number for the project'
+  author:
+    description: 'The user who triggered the workflow'
+  type:
+    description: 'The type of issue that triggured the workflow'
+  action:
+    description: 'The Github event type that triggured the workflow'
+  job:
+    description: 'The workflow job that can handle the event'
+runs:
+  using: 'node12'
+  main: 'index.js'

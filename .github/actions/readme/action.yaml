@@ -1,0 +1,8 @@
+name: 'Build README'
+description: 'Builds a project readme'
+outputs:
+  status:
+    description: "Is the project ready to build and push to master."
+runs:
+  using: 'node12'
+  main: 'index.js'
