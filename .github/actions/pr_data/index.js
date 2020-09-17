@@ -12,7 +12,7 @@ switch (type) {
     branch = `project_${branch_title}`;
     title = `[pr][project][${issue}] ${process.env.project}`;
     message = "Add new project to list";
-    labels = [ "project", "automated" ]
+    labels = "project"
     break;
   case "add":
   case "update":
@@ -21,7 +21,7 @@ switch (type) {
       : "Update project playground";
     branch = `${type}_${flavour}_${branch_title}`;
     title = `[pr][${type}][${flavour}][${issue}] ${process.env.project}`;
-    labels = [ `${type} playground`, "automated" ]
+    labels = `${type} playground`
     break;
 }
 
