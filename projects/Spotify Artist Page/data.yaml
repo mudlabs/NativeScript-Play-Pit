@@ -1,0 +1,57 @@
+issue: 45
+ios: true
+android: false
+title: Spotify Artist Page
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: Imitates the Spotify artist page _(circa 2019)_.
+resources: >-
+  See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in
+  NativeScript](https://youtu.be/k9cxGlAlo4s) tutorial for a full walk-through.
+  However this project does use `iosOverflowSafeArea` to set the image. And
+  takes a slightly different approach to laying-out the page components.
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: 'https://play.nativescript.org/?template=play-js&id=x5VeUR&v=3'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
