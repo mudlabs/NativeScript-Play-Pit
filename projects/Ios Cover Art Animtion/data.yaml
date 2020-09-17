@@ -1,0 +1,62 @@
+issue: 51
+ios: true
+android: false
+title: Ios Cover Art Animtion
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: >-
+  Imitates the iOS cover art animation where an album cover grows and shows a
+  shadow. With the shadow color being the average color of the cover image.
+resources: >-
+  Inspired by _Alexander Ziskinds'_ YouTube tutorial [How to Create iOS Podcast
+  Cover Art Animation with Inheriting Shadow
+  Color](https://youtu.be/CVZDURL8HWs). However here we are not sharing the
+  shadow color with anything else, the shadow has been implemented with fewer
+  components, and the animation has been implemented with
+  [CATransaction](https://developer.apple.com/documentation/quartzcore/catransaction)
+  instead of the NativeScript animation.
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: 'https://play.nativescript.org/?template=play-js&id=nJhbvb&v=3'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
