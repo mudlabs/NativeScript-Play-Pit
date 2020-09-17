@@ -69,7 +69,6 @@ jobs:
           title: ${{ title }}
           body: ${{ body }}
           labels: ${{ labels }}
-
   request:
     runs-on: ubuntu-latest
     name: Authorized Request
@@ -79,6 +78,9 @@ jobs:
       - uses: actions/checkout@v2
       - name: Get PR Number
         id: number
+        uses: ./.github/actions/request
+        with:
+          task: "number"
       - name: Checkout PR
         uses: dawidd6/action-checkout-pr@v1.2.0
         with:
@@ -86,6 +88,8 @@ jobs:
       - name: Parse Comment
         id: parse
         uses: mudlabs/NativeScript-Play-Pit/.github/actions/request@master
+        with:
+          task: "comment"
       - name: Add and Commit
         uses: EndBug/add-and-commit@v4.4.0
         with:
