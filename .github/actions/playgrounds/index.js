@@ -97,6 +97,14 @@ async function handleNewSubmission(){
     core.setOutput("branch", branch);
     core.setOutput("title", title);
 
+    await octokit.issues.update({
+      owner: owner.login,
+      repo: repo.name,
+      issue_number: issue.number,
+      title: `[${process.env.type}][${accronim}] ${project}`,
+      labels: [ `${process.env.type} playground` ]
+    });
+
   } catch (error) {
     console.log(error);
   }

@@ -109,10 +109,19 @@ async function projectSubmission() {
         core.setOutput("pr-title", `[pr][project][${issue_number}] ${title}`)
         core.setOutput("author", `${sender.login} <${email}>`)
         core.setOutput("branch", `project_${title}`.replace(/( )/g, ""))
+
+        await octokit.issues.update({
+          owner,
+          repo,
+          issue_number,
+          title: `[project] ${title}`,
+          labels: [ "project" ]
+        });
+
         return;
       } else {
         await octokit.issues.createComment({
-          owner,
+          owner: owner.login,
           repo,
           issue_number,
           body: `@${sender.login}, there was an unidetified problem parsing your submition. @mudlabs has been notified and will get back to you.`
@@ -124,7 +133,7 @@ async function projectSubmission() {
       console.log("Directory already exists"); 
       const data = await fs.promises.readFile("projects/${title}/data.yaml")
       const issue = yaml.safeLoad(data).issue;
-      await octokit.pulls.create({owner,repo,title:"My First PR",body:"PR body"});
+      
       await octokit.issues.createComment({
         owner, 
         repo,
@@ -140,7 +149,6 @@ async function projectSubmission() {
         labels: ["duplicate"]
       });
       await octokit.issues.lock({owner, repo, issue_number});
-
     }
 
   } catch (error) {

@@ -6,7 +6,8 @@ const utils = require("../utils");
   try {
     let project, issue_number;
     const event_title = core.getInput("title");
-    const type = event_title.replace(/^\[(project|update|add)\].+/i, "$1");
+    const typeExp = new RegExp(/^\[(project|update|add)\].+/i);
+    const type = event_title.replace(typeExp, "$1");
     const owner = github.context.payload.repository.owner;
     const octokit = github.getOctokit(process.env.token);
     const body = utils.stripComments(github.context.payload.issue.body);
@@ -39,9 +40,9 @@ const utils = require("../utils");
         issue_number = parseInt(number) ? number : null;
         const issue = await octokit.request({ url: `https://api.github.com/repos/mudlabs/hello-word-javascript-action/issues/${issue_number}`});
         project = parseTitle(issue.data.title);
-        console.log(project, type);
         break;
     }
+    
 
     core.setOutput("action", github.context.payload.action);
     core.setOutput("issue", issue_number)
