@@ -1,0 +1,55 @@
+issue: 49
+ios: true
+android: true
+title: Text Converter
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: "Demonstrates how you could set up a text converter with `xml` and `binded context`. The project simply converts text to an uppercase or capitalized form, depending on which `TextField` is used. But the technique can be used to do more complex work, like automatically swapping words for emoji, highlighting rude words etc...\r\n\r\nOn `Android` the converter uses vanilla JavaScript. But on `iOS` it uses the underlying native objective-c code that NativeScript exposes for us."
+resources: >-
+  - Docs ([Using Converters in
+  Bindings](https://docs.nativescript.org/core-concepts/data-binding#using-converters-in-bindings))
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: 'https://play.nativescript.org/?template=play-tsc&id=rVp750&v=2'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
