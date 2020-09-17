@@ -1,0 +1,57 @@
+issue: 41
+ios: true
+android: true
+title: Animated Bottom Sheet
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: "Demonstrates how you might go about creating an animated bottom sheet using two Frames.\r\n\r\nThe sheet is initially hidden, and shown from a button tap on the _main_ page. It can then be _re-hidden_ by tapping a button on the _sheet_ page, swiping down on the _sheet_ page, or tapping the _main_ page. And on Android if the bottom sheet is showing and the back button is pressed the bottom sheet will be hidden."
+resources: >-
+  This project was taken from a YouTube tutorial, [Animated Bottom Sheet in
+  NativeScript Tutorial](https://www.youtube.com/watch?v=SeTol800wFQ&t=917s) by
+  _Alexander Ziskind_. The two are essentially the same, except this project has
+  more handlers for closing the _bottom sheet_.
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: 'https://play.nativescript.org/?template=play-js&id=AxkpXa&v=3'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: 'https://play.nativescript.org/?template=play-tsc&id=9tAzM4&v=2'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
