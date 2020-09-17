@@ -50,7 +50,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <!-- Playgrounds -->
 ### Playgrounds
 
-[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Bupdate%5D%5Bjavascript%5D%20Spotify%20Artist%20Page&template=update.md)
+[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_2_update.md)
 &nbsp;&nbsp;
 [![JavaScript][javascript-badge]](https://play.nativescript.org/?template=play-js&id=x5VeUR&v=3)
 
@@ -62,7 +62,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bangular%5D%20Spotify%20Artist%20Page&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Angular][angular-badge]]()
 
@@ -74,7 +74,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Btypescript%5D%20Spotify%20Artist%20Page&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![TypeScript][typescript-badge]]()
 
@@ -86,7 +86,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bvue%5D%20Spotify%20Artist%20Page&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Vue][vue-badge]]()
 
@@ -98,7 +98,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Breact%5D%20Spotify%20Artist%20Page&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![React][react-badge]]()
 
@@ -110,7 +110,7 @@ See _Alexander Ziskind_ [Recreating the Spotify App Artist Page in NativeScript]
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bsvelte%5D%20Spotify%20Artist%20Page&template=add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Svelte][svelte-badge]]()
 
