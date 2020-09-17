@@ -10,7 +10,7 @@ const issue = core.getInput("issue");
 switch (type) {
   case "project":
     branch = `project_${branch_title}`;
-    title = `[pr][project][${issue}] ${project}`;
+    title = `[pr][project][${issue}] ${process.env.project}`;
     message = "Add new project to list";
     labels = [ "project", "automated" ]
     break;
@@ -20,7 +20,7 @@ switch (type) {
       ? "Add missing playground to project"
       : "Update project playground";
     branch = `${type}_${flavour}_${branch_title}`;
-    title = `[pr][${type}][${flavour}][${issue}] ${project}`;
+    title = `[pr][${type}][${flavour}][${issue}] ${process.env.project}`;
     labels = [ `${type} playground`, "automated" ]
     break;
 }
