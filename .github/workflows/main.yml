@@ -5,35 +5,91 @@ on:
     types:
       - opened
   issue_comment:
+    types:
+      - created
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  token: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  new-project:
+  metadata:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, '[project]')
-    name: Create New Project
+    name: Metadata
+    outputs:
+      project: ${{ steps.metadata.outputs.project }}
+      author: ${{ steps.metadata.outputs.author }}
+      action: ${{ steps.metadata.outputs.action }}
+      type: ${{ steps.metadata.outputs.type }}
+      job: ${{ steps.metadata.outputs.job }}
     steps:
-      - uses: actions/checkout
-        name: new project
+      - uses: actions/checkout@v2
+      - name: Get Jobs Metadata
+        id: metadata
+        uses: ./.github/actions/metadata
+        with:
+          title: ${{ github.event.issue.title }}
+  submission:
+    runs-on: ubuntu-latest
+    name: Process Submissions
+    needs: metadata
+    if: needs.metadata.outputs.job == 'submission'
+    env:
+      project: ${{ needs.metadata.outputs.project }}
+      author: ${{ needs.metadata.outputs.author }}
+      action: ${{ needs.metadata.outputs.action }}
+      type: ${{ needs.metadata.outputs.type }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: Playground Links
+        if: env.type == 'add' || env.type == 'update' && env.action == 'opened'
+        id: playground
+        uses: ./.github/actions/playgrounds
+      - name: New Project
+        if: env.type == 'project'
         id: project
-      - uses: ./.github/actions/project
-  missing-flavour:
+        uses: ./.github/actions/project
+      - name: Buld Readme
+        id: readme
+        if: success()
+        uses: ./.github/actions/readme
+      - name: Update Projects
+        id: projects
+        if: success()
+        uses: ./.github/actions/projects
+      - name: Create PR
+        id: pr
+        if: success()
+        uses: peter-evans/create-pull-request@v3.3.0
+        with:
+          delete-branch: true
+          commit-message: ${{ message }}
+          committer: ${{ committer }}
+          author: ${{ author }}
+          branch: ${{ branch }}
+          title: ${{ title }}
+          body: ${{ body }}
+          labels: ${{ labels }}
+
+  request:
     runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, '[missing]')
-    name: Add Missing Flavour to Project
+    name: Authorized Request
+    needs: metadata
+    if: needs.metadata.outputs.job == 'request'
     steps:
-      - uses: actions/checkout
-        name: missing flavour
-        id: missing
-      - uses: ./.github/actions/missing
-  update-flavour:
-    runs-on: ubuntu-latest
-    if: startsWith(github.event.issue.title, '[update]')
-    name: Update Project Flavour
-    steps:
-      - uses: actions/checkout
-        name: update flavour
-        id: update
-      - uses: ./.github/actions/update
+      - uses: actions/checkout@v2
+      - name: Get PR Number
+        id: number
+      - name: Checkout PR
+        uses: dawidd6/action-checkout-pr@v1.2.0
+        with:
+          number: ${{ steps.number.outputs.number }}
+      - name: Parse Comment
+        id: parse
+        uses: mudlabs/NativeScript-Play-Pit/.github/actions/request@master
+      - name: Add and Commit
+        uses: EndBug/add-and-commit@v4.4.0
+        with:
+          ref: ${{ branch }}
+          author_name: ${{ author_name }}
+          author_email: ${{ email_email }}
+          message: ${{ message }}

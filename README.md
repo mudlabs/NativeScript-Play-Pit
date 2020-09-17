@@ -36,20 +36,14 @@ All contributions are welcome. The repo deploys GitHub Actions triggered by new 
 
 ### Creating a New Project
   1. First build the project in your chosen flavour of NativeScript at [play.nativescript.org](https://play.nativescript.org/). 
-  2. When your project is ready to share [click here to open a new project issue](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new?title=New%20Project&template=project.md) and follow the instructions.
+  2. When your project is ready to share [click here to submit a new project](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new?template=issue_1_project.md) and follow the instructions.
 
-### Contribute a Missing Flavour
+### Add a Missing Playground
 If you've found a project that's missing a flavour of NativeScript you know, please add it.
   1. First build the project in the missing flavour at [play.nativescript.org](https://play.nativescript.org/).
-  2. When your project is ready to share, open the existing Projects' **README** and click the **Add Flavour** link in the appropiate table.
-  3. Fill out the issue template.
+  2. When your project is ready to share, click the ***add*** link next to that projects missing playground and follow the instructions.
 
-### Edit Project
-To edit a project **README**, including updating one of the projects playground flavours, click the _Edit Project_ link located at the bottom of the README. And fillout the issue template.
-  
-**If you're wanting to update the code for one of a projects flavours**
-  1. Follow the lick to the playground and make your changes. 
-  2. Test the playground still works on the projects supported platforms. 
-  3. Save your updated playground and copy the updated playground link to your clipboard.
-  4. Back on the project **README** click _Edit Project_ to open the issue template.
-  5. Replace the appropiate playground link with your new version.
+### Update a Playground
+  1. First open the existing playground link and begin working on your updates.
+  2. When you've finished making changes click the ***save*** button in the playground UI and copy new playground link.
+  3. Now click the ***update*** link next to the projects playground flavour you've just updated, and follow the instructions.
