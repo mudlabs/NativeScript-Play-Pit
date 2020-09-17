@@ -1,0 +1,53 @@
+issue: 43
+ios: true
+android: true
+title: Dragging
+author: &ref_0
+  id: 32623552
+  login: mudlabs
+  date: 'Sep 17, 2020'
+description: "Demonstrates how to drag views around the screen, and update the UI in response. \r\nIt features a spring back animation that will return the dragged view to its starting point when the drag event ends. \r\nThe animation can be toggled on or off."
+resources: ''
+playgrounds:
+  js:
+    flavour: JavaScript
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  ng:
+    flavour: Angular
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  tsc:
+    flavour: TypeScript
+    url: 'https://play.nativescript.org/?template=play-tsc&id=PRqFOT&v=2'
+    ios: false
+    android: false
+    author: *ref_0
+    contributor: null
+  vue:
+    flavour: Vue
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  react:
+    flavour: React
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null
+  svelte:
+    flavour: Svelte
+    url: null
+    ios: false
+    android: false
+    author: null
+    contributor: null

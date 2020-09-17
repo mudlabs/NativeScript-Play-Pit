@@ -22,7 +22,7 @@ To view a project on your device you'll need the _Playground_ and _Preview_ apps
 
 ## Projects
 - [Animated Bottom Sheet](projects/Animated%20Bottom%20Sheet)
-- [temp](projects/temp)
+- [Dragging](projects/Dragging)
 
 ---
 
