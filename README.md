@@ -25,6 +25,7 @@ To view a project on your device you'll need the _Playground_ and _Preview_ apps
 - [Dragging](projects/Dragging)
 - [Spotify Artist Page](projects/Spotify%20Artist%20Page)
 - [Star Rating](projects/Star%20Rating)
+- [Text Converter](projects/Text%20Converter)
 
 ---
 
