@@ -2,13 +2,12 @@
 [android icon]: https://icomoon.io/icons9f9702a/13/342.svg "Android"
 
 # NativeScript Play Pit
-A growing collection of NativeScript playground projects demonstrating all the _AWESOMENESS_:metal: of NativeScript.
+An open-source collection of NativeScript playground projects demonstrating all the _AWESOMENESS_:metal: of NativeScript.
 
 ## Table of Contents
 - [Requirements](#requirements)
 - [Projects](#projects)
 - [Contributing](#contributing)
-- [Contributors](#contributors)
 
 ## Requirements
 To view a project on your device you'll need the _Playground_ and _Preview_ apps. Once you have the apps you can tap a project link from you phones' browser and it will open in the _Preview_ app. Or you can navigate to the Playground from your computer and select `QR Code` from the sites UI. Then use the _Playground_ app to scan the QR Code.
@@ -45,5 +44,5 @@ If you've found a project that's missing a flavour of NativeScript you know, ple
 
 ### Update a Playground
   1. First open the existing playground link and begin working on your updates.
-  2. When you've finished making changes click the ***save*** button in the playground UI and copy new playground link.
+  2. When you've finished making changes click the ***save*** button in the playground UI and copy the new playground link.
   3. Now click the ***update*** link next to the projects playground flavour you've just updated, and follow the instructions.
