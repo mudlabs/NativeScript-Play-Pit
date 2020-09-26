@@ -10,7 +10,7 @@ const github = require("@actions/github");
       const title = encodeURIComponent(`[${action}][${type}] ${project}`);
       const template = action === "add" ? "issue_3_add.md" : "issue_2_update.md";
 
-      return `[![${action}][${action}-badge]](${repo}/issues/new/?template=${template})`;
+      return `[![${action}][${action}-badge]](${repo}/issues/new/?title=%5B${action}%5D%5B${type}%5D%20Playground&template=${template})`;
     };
 
     const userOnDate = user => {
