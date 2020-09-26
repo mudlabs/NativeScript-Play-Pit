@@ -35,7 +35,7 @@ All contributions are welcome. The repo deploys GitHub Actions triggered by new 
 
 ### Creating a New Project
   1. First build the project in your chosen flavour of NativeScript at [play.nativescript.org](https://play.nativescript.org/). 
-  2. When your project is ready to share [click here to submit a new project](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new?template=issue_1_project.md) and follow the instructions.
+  2. When your project is ready to share [click here to submit a new project](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new?title=%5Bproject%5D%20New%20Project&template=issue_1_project.md) and follow the instructions.
 
 ### Add a Missing Playground
 If you've found a project that's missing a flavour of NativeScript you know, please add it.
