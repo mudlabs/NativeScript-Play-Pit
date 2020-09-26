@@ -55,7 +55,7 @@ n/a
 <!-- Playgrounds -->
 ### Playgrounds
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bjavascript%5D%20Playground&template=issue_3_add.md)
 &nbsp;&nbsp;
 [![JavaScript][javascript-badge]]()
 
@@ -67,7 +67,7 @@ n/a
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bangular%5D%20Playground&template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Angular][angular-badge]]()
 
@@ -79,7 +79,7 @@ n/a
 <br/>
 
 
-[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_2_update.md)
+[![update][update-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Bupdate%5D%5Btypescript%5D%20Playground&template=issue_2_update.md)
 &nbsp;&nbsp;
 [![TypeScript][typescript-badge]](https://play.nativescript.org/?template=play-tsc&id=ryFKn3&v=2)
 
@@ -91,7 +91,7 @@ n/a
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bvue%5D%20Playground&template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Vue][vue-badge]]()
 
@@ -103,7 +103,7 @@ n/a
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Breact%5D%20Playground&template=issue_3_add.md)
 &nbsp;&nbsp;
 [![React][react-badge]]()
 
@@ -115,7 +115,7 @@ n/a
 <br/>
 
 
-[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?template=issue_3_add.md)
+[![add][add-badge]](https://github.com/mudlabs/NativeScript-Play-Pit/issues/new/?title=%5Badd%5D%5Bsvelte%5D%20Playground&template=issue_3_add.md)
 &nbsp;&nbsp;
 [![Svelte][svelte-badge]]()
 
